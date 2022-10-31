@@ -4290,6 +4290,10 @@
 				"value": "4"
 			}
 		],
+		"category": {
+			"code": "SF",
+			"description": "Safety"
+		},
 		"correctAnswer": "3",
 		"feedback": "Decrease your following distance when entering an expressway.",
 		"question": "Your following distance should increase in the following situations except: ",
