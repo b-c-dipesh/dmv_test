@@ -1,0 +1,25 @@
+.list-group-item:hover {
+	cursor: pointer !important;
+	box-shadow: none !important;
+	transition: box-shadow 0.3s ease-in;
+}
+
+.qna-section {
+	max-width: 900px;
+}
+
+@media only screen and (min-width: 992px) {
+	.question {
+		max-width: 992px;
+	}
+
+	.feedback,
+	.list-group {
+		max-width: 900px;
+	}
+
+	.btn {
+		position: fixed;
+		bottom: 50px;
+	}
+}
