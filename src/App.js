@@ -32,7 +32,10 @@ const App = () => {
 	return (
 		<div className="container-fluid min-vh-100 bg-light">
 			<main className="d-flex flex-column justify-content-center align-items-start min-vh-100 py-5">
-				<section ref={rightWrongInfoRef} className="right-wrong-info">
+				<section
+					ref={rightWrongInfoRef}
+					className="right-wrong-info d-none"
+				>
 					{isCorrect && (
 						<p className="fw-bold fs-5 d-flex align-items-center">
 							{score}{' '}
